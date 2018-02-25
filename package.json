@@ -1,0 +1,19 @@
+{
+  "name": "htv2back",
+  "version": "1.0.0",
+  "description": "the backend node app for our hack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "our team",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3",
+    "mongoose": "^5.0.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.15.1"
+  }
+}
